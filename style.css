@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+.app {
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.app__block {
+    flex: 1 1 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-block {
+    background-color: #bd0660;
+}
+
+.right-block {
+    background-color: #069bbd;
+}
+
+.operation-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.num {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.sub-title {
+    font-size: 35px;
+    font-weight: 500;
+}
+
+.num__input {
+    width: 100%;
+    max-width: 200px;
+    font-size: 55px;
+
+}
+
+.sign {
+    width: 100%;
+    max-width: 100px;
+    font-size: 55px;
+}
+
+.btn {
+    width: 250px;
+    height: 40px;
+}

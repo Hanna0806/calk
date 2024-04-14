@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang='en'>
+<head>
+  <meta charset='UTF-8'>
+  <meta name='viewport'
+        content='width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0'>
+  <meta http-equiv='X-UA-Compatible' content='ie=edge'>
+  <title>Calculate Mini</title>
+  <link rel='stylesheet' href='./style.css'>
+</head>
+<body>
+<main class='app'>
+  <div class='left-block app__block'>
+    <label class='num'>
+      <span class='sub-title'>Введите первое число</span>
+      <input class='num__input first-num' type='text'>
+      <button class="user">Кнопка имя пользователя</button>
+    </label>
+  </div>
+  <div class='operation-block app__block'>
+    <h1 class='result'>Ваш результат: <span class='result-value'>...</span></h1>
+
+    <label class='num'>
+      <span class='sub-title'>Выберите знак</span>
+      <select class='sign'>
+        <option value='+' selected>+</option>
+        <option value='-'>-</option>
+        <option value='/'>/</option>
+        <option value='*'>*</option>
+      </select>
+    </label>
+    <button class='result-btn btn'>Показать результат</button>
+    <button class='reset-btn btn'>Очистить</button>
+  </div>
+  <div class='right-block app__block'>
+    <label class='num'>
+      <span class='sub-title'>Введите второе число</span>
+      <input class='num__input second-num' type='text'>
+    </label>
+
+    
+   
+  </div>
+</main>
+
+
+<script src='./main.js'></script>
+</body>
+</html>
